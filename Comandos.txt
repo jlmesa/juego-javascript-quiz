@@ -1,0 +1,11 @@
+npm create vite@latest
+	->Nombre, React, Typescript + SWC
+npm install
+npm run dev(Ejecutar)
+npm i @mui/material @emotion/react @emotion/styled
+npm i @fontsource/roboto @mui/icons-material -E
+npm i zustand -E
+npm i react-syntax-highlighter -E
+npm i --save-dev @types/react-syntax-highlighter
+npm i canvas-confetti -E
+npm i --save-dev @types/canvas-confetti
