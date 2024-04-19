@@ -13,7 +13,7 @@ interface State {
   reset: () => void
 }
 
-const API_URL = 'http://localhost:5173/'
+const API_URL = import.meta.env.VITE_URL || 'http://localhost:5173';
 
 export const useQuestionsStore = create<State>()(devtools(persist((set, get) => {
   return {
